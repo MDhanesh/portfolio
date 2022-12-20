@@ -24,8 +24,8 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          Certified Full Stack Developer with quite few own projects looking for
-          an opportunity to work and excel my skills in an organization and
+          Full Stack Developer with quite few own projects looking for an
+          opportunity to work and excel my skills in an organization and
           interested to explore and work on complex projects.
         </p>
       </div>
