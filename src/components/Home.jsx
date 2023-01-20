@@ -2,6 +2,9 @@ import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import HeroImage from "../assets/img.png";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Home = () => {
   return (
@@ -38,6 +41,50 @@ const Home = () => {
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
+        </div>
+        <div>
+          <div className="flex row text-white sm:hidden">
+            <div className="flex-col">
+              <a
+                className="flex items-center pr-3 py-2 my-2"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/dhanesh-m-7343bb185/"
+              >
+                <FaLinkedin size={30} />
+                <span className="ml-3">Linkedin</span>
+              </a>
+              <a
+                className="flex items-center pr-3 py-2 my-2"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/MDhanesh?tab=repositories"
+              >
+                <FaGithub size={30} />
+                <span className="ml-3">Github</span>
+              </a>
+            </div>
+            <div className="flex-col">
+              <a
+                className="flex items-center pr-3 py-2 my-2"
+                target="_blank"
+                rel="noreferrer"
+                href="https://drive.google.com/file/d/1k4afga0NGmLZlVBIozu-C4jE6bAO54VR/view?usp=sharing"
+              >
+                <BsFillPersonLinesFill size={30} />
+                <span className="ml-3">Resume</span>
+              </a>
+              <a
+                className="flex items-center  py-2 my-2 "
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:mgdhanesh98@gmail.com"
+              >
+                <HiOutlineMail size={30} />
+                <span className="ml-3">Email</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

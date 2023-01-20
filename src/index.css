@@ -11,3 +11,18 @@
     font-family: "Raleway", sans-serif;
   }
 }
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(139, 206, 245, 0.893),
+    hsl(0, 0%, 100%)
+  ) !important;
+}
