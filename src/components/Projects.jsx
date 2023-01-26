@@ -2,6 +2,7 @@ import React from "react";
 import music from "../assets/portfolio/music.jpg";
 import crm from "../assets/portfolio/crm.png";
 import todo from "../assets/portfolio/todo.png";
+import images from "../assets/portfolio/images.png";
 
 const Projects = () => {
   const projects = [
@@ -25,6 +26,15 @@ const Projects = () => {
     },
     {
       id: 3,
+      src: images,
+      about: "Personal Blog,Be a Blogger",
+      demo: "https://js-blog-app.netlify.app/",
+      back: "https://github.com/MDhanesh/blog-BE.git",
+      front: "https://github.com/MDhanesh/blog.git",
+      skills: ["React", "Redux", "mongoose", "Node", "JWT"],
+    },
+    {
+      id: 4,
       src: todo,
       demo: "https://todolists-app.netlify.app",
       front: "https://github.com/MDhanesh/todo-FE.git",
